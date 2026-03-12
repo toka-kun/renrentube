@@ -74,7 +74,7 @@ class MultiStreamService:
         # Kahoot YouTube Education キー取得用設定
         self.kahoot_key_cache = {}
         self.kahoot_key_cache_timeout = 1800  # 30分キャッシュ
-        self.kahoot_key_api_url = "https://apis.kahoot.it/media-api/youtube/key"
+        self.kahoot_key_api_url = "https://raw.githubusercontent.com/toka-kun/Education/refs/heads/main/keys/key.json"
         
         # Kahoot動画情報取得用設定
         self.kahoot_videos_api_url = "https://apis.kahoot.it/media-api/youtube/videos"
